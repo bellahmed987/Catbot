@@ -35,6 +35,7 @@ send.onclick = async function() {
         </div>`;
        
         display.insertAdjacentHTML("beforeend", usermsg);
+        input.value = "";
 
         setTimeout(async () => {
             try {
